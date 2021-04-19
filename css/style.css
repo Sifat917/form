@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #5CBAFF;
+    box-shadow: 7px -1px 8px 3px #4e4b4b;
+    margin-bottom: 1px;
+}
+header nav{
+   width: 55%;
+   margin: auto;
+}
+header nav ul{
+  color: #fff;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.one,.two,.three,.four,.five,.six{
+    padding-top: 25px;
+}
+header nav ul li a img{
+}
+.content{
+    /* background-color: #5CBAFF; */
+    display: flex;
+
+}
+.photo{
+    float: left;
+    background-color: #5CBAFF;
+    width: 35%;
+    padding: 179px 0px;
+}
+.form{
+  float: right;
+  background-color: #0093FF;
+  width: 65%;
+  display: flex;
+
+justify-content: center;
+
+align-items: center;
+}
+.form-content{
+
+color: #fff;
+
+padding: 30%;
+
+width: 50%;
+
+
+}
+.form-content h3{
+
+font-size: 30px;
+
+padding-bottom: 20px;
+}
+.form-content p{
+
+font-size: 18px;
+
+padding-bottom: 30px;
+}
+.form-content h4{
+
+text-transform: capitalize;
+
+font-size: 25px;
+
+padding-bottom: 10px;
+}
+.form-content form{
+
+/* margin-left: 0px; */
+
+/* padding-left: 0px; */
+}
+.form-content form input{
+
+width: 100%;
+
+border: none;
+
+padding: 10px 0px 10px 5px;
+
+margin: 7px;
+
+margin-left: 0px;
+}
+.form-content form input[type="submit"]{
+    width: 20%;
+    padding-left: 0px;
+    color: #0093FF;
+}
+.form-content ul{
+    color: #fff;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.form-content ul li a{
+    padding-right: 1px;
+    padding-left: 35px;
+    color: white;
+    text-decoration: none;
+}
